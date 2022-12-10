@@ -1,0 +1,219 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container-wrapper{}
+
+.container-wrapper-red{
+  background-color: rgb(79, 34, 13);
+  color: white;
+}
+/* Alert */
+
+.alert-container .col-12{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.side-wide-alert {
+  border-radius: 0;
+  margin-bottom: 0px;
+  padding: 5px, 15px;
+  background-color: #f8e888;
+  border-color: #f8e888;
+}
+/* Nav Bar */
+
+.navalert-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1;
+  
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.20);
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 60px;
+  
+}
+
+.navbar-toggler{
+  border: 0
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+  font-weight: bold;
+}
+
+.callout-container{
+    height: 100vh;
+    background: url("../images/whiskey4.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.features-container{}
+
+/* Page Headers */
+
+.page-header {
+  margin-bottom: 0;
+  border-bottom: 0;
+  text-align: center;
+}
+
+.page-header h2 {
+  margin-top: 0;
+}
+
+.quotes .page-header{
+  margin-bottom: 25px;
+}
+
+.quotes-container{}
+
+.table-container{}
+
+/* Block Dividers */
+
+.block-divider{
+    width: 75%;
+    height: 3px;
+    background-color: #444;
+    border: 0;
+    border-radius: 75%;
+    
+}
+
+.block-divider--white{
+  background-color: white;
+}
+
+.block-divider--short{
+  width: 20%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Content Containers*/
+
+.content-container{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-color: transparent;
+}
+
+.glow{
+    color:white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e64500, 0 0 40px #e64500, 0 0 50px #e64500, 0 0 60px #e64500, 0 0 70px #e64500;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff7c4d, 0 0 40px #ff7c4d, 0 0 50px #ff7c4d, 0 0 60px #ff7c4d, 0 0 70px #ff7c4d, 0 0 80px #ff7c4d;
+    }
+  }
+
+  .jumbotron .lead{
+    color: #ebded5;
+    margin: 20px 0;
+  }
+
+  .jumbotron small{
+    font-size: 60%;
+    font-style: italic;
+    color: white;
+  }
+
+  /* Buttons */
+
+  .btn--cta{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    
+  }
+
+  .btn--red{
+    color: white;
+    background-color: #aa0606;
+    border-color:#aa0606;
+  }
+
+  .btn--red:hover,
+  .btn--red:active,
+  .btn--red:focus,
+  .btn--red:active:focus {
+    background-color: #600b0b;
+    border-color: #600b0b;
+    color: white;
+  }
+
+  .feature {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .feature .btn{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(79, 34, 13)
+  }
+
+  .feature .btn:hover,
+  .feature .btn:active,
+  .feature .btn:focus,
+  .feature .btn:active:focus {
+    background-color:  rgb(79, 34, 13);
+    border-color:  rgb(79, 34, 13);
+    color: white;
+  }
