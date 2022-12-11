@@ -144,14 +144,14 @@ body {
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
-  @keyframes glow {
+ /* @keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e64500, 0 0 40px #e64500, 0 0 50px #e64500, 0 0 60px #e64500, 0 0 70px #e64500;
     }
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff7c4d, 0 0 40px #ff7c4d, 0 0 50px #ff7c4d, 0 0 60px #ff7c4d, 0 0 70px #ff7c4d, 0 0 80px #ff7c4d;
     }
-  }
+  } */
 
   .jumbotron .lead{
     color: #ebded5;
