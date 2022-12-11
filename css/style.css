@@ -97,6 +97,11 @@ body {
 
 .quotes .page-header{
   margin-bottom: 25px;
+  color:rgb(79, 34, 13) !important;
+}
+
+.quotes p{
+  color:rgb(79, 34, 13);
 }
 
 .quotes-container{}
@@ -108,7 +113,7 @@ body {
 .block-divider{
     width: 75%;
     height: 3px;
-    background-color: #444;
+    background-color: rgb(79, 34, 13);
     border: 0;
     border-radius: 75%;
     
@@ -124,7 +129,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Content Containers*/
+/* Content Containers */
 
 .content-container{
   padding-top: 75px;
@@ -135,6 +140,26 @@ body {
 .jumbotron{
     background-color: transparent;
 }
+
+/* Table Container */
+
+.table-container{
+  width: 50vh;
+  color: rgb(79, 34, 13);
+}
+
+.table{
+  color: rgb(79, 34, 13);
+}
+.table-hr{
+  background-color: rgb(79, 34, 13);
+  margin-top: 20px;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: rgb(79, 34, 13);
+  color: white;
+}
+
 
 .glow{
     color:white;
